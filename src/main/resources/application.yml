@@ -24,3 +24,6 @@ spring:
     schemas: cambio_service
     user: postgres
     password: 1234
+springdoc:
+  api-docs:
+    path: book-service/v3/api-docs
