@@ -24,6 +24,9 @@ spring:
     schemas: cambio_service
     user: postgres
     password: 1234
+  sleuth:
+    sampler:
+      probability: 1.0
 springdoc:
   api-docs:
     path: book-service/v3/api-docs
